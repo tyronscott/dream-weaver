@@ -151,7 +151,6 @@ const App: React.FC = () => {
 
 
   useEffect(() => {
-    if (true) return;
     const updateDreamImage = async () => {
       if (isLoading || isGeneratingImage || stage !== AppStage.ANALYSIS || messages.length < 2) {
         return;
